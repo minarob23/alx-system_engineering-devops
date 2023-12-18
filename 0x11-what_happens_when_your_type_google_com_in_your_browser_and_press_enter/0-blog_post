@@ -1,17 +1,1 @@
-In the era of instant information access, we often take for granted the complex processes that occur behind the scenes when we type a URL into our browser and hit Enter. This blog post aims to demystify the journey of a web request, breaking down the intricate steps involved from the moment you initiate the request to the point where the webpage is rendered on your screen.
-DNS Request:
-When you type "https://www.google.com" and press Enter, the first step is a DNS (Domain Name System) resolution. The browser needs to find the IP address associated with the domain name. It sends a DNS request to a DNS server, which responds with the corresponding IP address.
-TCP/IP:
-With the IP address in hand, the browser initiates a connection using the TCP/IP protocol. TCP (Transmission Control Protocol) ensures reliable communication by breaking down data into packets and confirming their successful delivery. IP (Internet Protocol) handles the addressing and routing of these packets across the internet.
-Firewall:
-The data packets traverse through various network devices, including firewalls. Firewalls act as a security barrier, examining and controlling incoming and outgoing network traffic based on predetermined security rules.
-HTTPS/SSL:
-In the case of "https://www.google.com," the 's' in HTTPS stands for secure. This indicates that the communication between your browser and the server is encrypted using SSL/TLS (Secure Socket Layer/Transport Layer Security) protocols. This encryption ensures the confidentiality and integrity of the data exchanged.
-Load-Balancer:
-Large-scale websites like Google often employ load balancers to distribute incoming web traffic across multiple servers. This improves the site's reliability, availability, and scalability. The load balancer ensures that no single server becomes overwhelmed with too many requests.
-Web Server:
-After passing through the load balancer, the request reaches one of Google's web servers. These servers host the static files and respond to client requests. They handle tasks such as serving HTML, CSS, and JavaScript files.
-Application Server:
-For dynamic content or server-side processing, the request may be forwarded to an application server. In Google's case, this could involve processing search queries or personalizing content based on user preferences. Application servers execute the business logic of the application.
-Database:
-If the requested information involves data retrieval or storage, the application server communicates with a database. Google's vast database infrastructure holds an immense amount of indexed data, allowing for quick and efficient retrieval of search results or other requested information.
+https://medium.com/@fakunletolulope05/what-happens-when-you-type-google-com-in-your-browser-and-press-enter-b91559c4178d
